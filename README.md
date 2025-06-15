@@ -10,15 +10,15 @@
  - Kevin Nguyen - MAE
 
 ### Table of Contents
-[- Overview](##Overview)
-[- Key Features](##Key Features)
-[- How to Run](##How to Run)
-[- Hardware](##Hardware)
-[- Challenges](##Challenges)
-[- Areas of Improvement](##Areas of Improvements)
-[- Acknowledgements](##Acknowledgements)
-[- Course Resources](##Course Resources)
-[- Other Course Deliverables](##Other Course Deliverables)
+- [Overview](##Overview)
+- [Key Features](##Key Features)
+- [How to Run](##How to Run)
+- [Hardware](##Hardware)
+- [Challenges](##Challenges)
+- [Areas of Improvement](##Areas of Improvements)
+- [Acknowledgements](##Acknowledgements)
+- [Course Resources](##Course Resources)
+- [Other Course Deliverables](##Other Course Deliverables)
 ## Overview
 This project was to develop a self-parallel-parking robot utilizing only a single camera and 2 2-D LiDARs. It will autonomously navigate until it detects other vehicles and starts to detect and evaluate potential parking spots.
 ### Main Objectives
@@ -34,9 +34,8 @@ This project was to develop a self-parallel-parking robot utilizing only a singl
 ### Requirements
 
 ## Hardware
----
 ### General RC Car Wiring Diagram
-<img src="images/wiring_diagram.png" width="600">
+<img src="images/wiring_diagram.png" width="800">
 
 ### Components (May not be in Wiring Diagram)
 - **Traxxas 1/10 Ford Fiesta Chassis**
@@ -46,13 +45,15 @@ This project was to develop a self-parallel-parking robot utilizing only a singl
 - **DTOF LiDAR LD19** - Rear LiDAR sensor
 - **SICK TiM571-2050101** - Front LiDAR sensor
 ### CAD
-Our project relied heavily on CAD for cable management, sensor mounting & integration, and course planning.
+Our project relied heavily on CAD for cable management, sensor mounting & integration, and course planning. Onshape was used.
 
 **CAD files can be found in the `cad` folder**
 #### Car CAD
 <img src="images/car_cad.png" width="400">
+
 #### Car CAD w/ FOV Overlays
 <img src="images/fov_cad.png" width="400">
+
 #### Course CAD (Car with Obstacles)
 <img src="images/course_cad.png" width="400">
 
@@ -68,8 +69,8 @@ Thank you to the dedicated staff that made this course possible and helping us t
 [Course Website](https://ucsd-ecemae-148.github.io/)
 - Contains primary documentation and past ECE MAE 148 final projects
 ## Other Course Deliverables
-[Donkey Car Autonomous Laps](https://youtube.com/shorts/SDO8L6csyMs)
-[Donkey Car GPS Laps](https://www.youtube.com/shorts/bQW3wik1WEM?si=BMjtb4AWy1tpJWZM)
-[OpenCV Lane Following](https://www.youtube.com/shorts/oZnYPm4y-rA?feature=share)
+- [Donkey Car Autonomous Laps](https://youtube.com/shorts/SDO8L6csyMs)
+- [Donkey Car GPS Laps](https://www.youtube.com/shorts/bQW3wik1WEM?si=BMjtb4AWy1tpJWZM)
+- [OpenCV Lane Following](https://www.youtube.com/shorts/oZnYPm4y-rA?feature=share)
 
 
