@@ -80,6 +80,7 @@ Like most projects, this project required a mix of both technical and project ma
 #### Project Gantt Chart
 <img src="images/gantt_chart.png" width="800">
 The Gantt chart shows the actual project timeline (dark cyan) to the initial baseline (red). The area between the baseline and actual was due to a multitude of technical issues when doing the OpenCV lane following.
+
 ## Areas of Improvement
 - **Better Spot Evaluation Logic**: Shape fitting algorithms & deeper sensor fusion to measure parking spaces more accurately
 - **Automatic Dataset Collection**: Improving the computer vision model to a point where it can help with annotating images
