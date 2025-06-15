@@ -1,6 +1,7 @@
 # ECE MAE 148 - Team 2
 
 <img src="images/jsoe_logo.png" width="300">
+
 # Spring 2025 Final Project - Self Parking
 [Final Presentation](https://docs.google.com/presentation/d/1LYtDfWw0KNp87Ibz-X-V0k7ANJAOO4ydioHknXktUfY/edit?slide=id.p#slide=id.p)
 ### Team Members
@@ -10,15 +11,15 @@
  - Kevin Nguyen - MAE
 
 ### Table of Contents
-- [Overview](##Overview)
-- [Key Features](##Key Features)
-- [How to Run](##How to Run)
-- [Hardware](##Hardware)
-- [Challenges](##Challenges)
-- [Areas of Improvement](##Areas of Improvements)
-- [Acknowledgements](##Acknowledgements)
-- [Course Resources](##Course Resources)
-- [Other Course Deliverables](##Other Course Deliverables)
+- [Overview](#Overview)
+- [Key Features](#Key Features)
+- [How to Run](#How to Run)
+- [Hardware](#Hardware)
+- [Challenges](#Challenges)
+- [Areas of Improvement](#Areas of Improvements)
+- [Acknowledgements](#Acknowledgements)
+- [Course Resources](#Course Resources)
+- [Other Course Deliverables](#Other Course Deliverables)
 ## Overview
 This project was to develop a self-parallel-parking robot utilizing only a single camera and 2 2-D LiDARs. It will autonomously navigate until it detects other vehicles and starts to detect and evaluate potential parking spots.
 ### Main Objectives
@@ -45,6 +46,7 @@ This project was to develop a self-parallel-parking robot utilizing only a singl
 - **DTOF LiDAR LD19** - Rear LiDAR sensor
 - **SICK TiM571-2050101** - Front LiDAR sensor
 ### CAD
+---
 Our project relied heavily on CAD for cable management, sensor mounting & integration, and course planning. Onshape was used.
 
 **CAD files can be found in the `cad` folder**
