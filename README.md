@@ -16,7 +16,7 @@
 - [How to Run](#How-to-Run)
 - [Hardware](#Hardware)
 - [Challenges](#Challenges)
-- [Areas of Improvement](#Areas-of-Improvements)
+- [Areas of Improvement](#Areas-of-Improvement)
 - [Acknowledgements](#Acknowledgements)
 - [Course Resources](#Course-Resources)
 - [Other Course Deliverables](#Other-Course-Deliverables)
@@ -29,8 +29,8 @@ This project was to develop a self-parallel-parking robot utilizing only a singl
 - Ability to park into much tighter spaces by doing multi-point turns
 - Reverse parking into perpendicular spots
 ## Key Features
-- **Computer Vision**
-- **Collision Avoidance**
+- **Computer Vision**: Finds other cars to recognize where parking spaces are available. Helps guides the LiDARs and with vehicle guidance
+- **Collision Avoidance**: LiDARs prevent the vehicle from hitting an obstacle
 ## How to Run
 ### Requirements
 
@@ -60,7 +60,31 @@ Our project relied heavily on CAD for cable management, sensor mounting & integr
 <img src="images/course_cad.png" width="400">
 
 ## Challenges
-## Areas of Improvemet
+Like most projects, this project required a mix of both technical and project managing knowledge.
+
+### Technical
+---
+- Multitude of technical issues that required significant time to debug
+	- **Wi-Fi** connectivity was spotty, interrupting SSH sessions that threw away work
+	- **Compatibility issues** with certain versions of Python not working with OpenCV while certain versions of OpenCV did not worth with the Jetson requiring rebuilding and specific prerequisite versions.
+	- **Hardware** provided had limited documentation, significantly slowing down diagnosing of faulty components. Servos, motors, VESCs, and Wi-Fi adapters had to be replaced.
+- Documentation
+	- Specific hardware documentation was lacking in specifications or troubleshooting requiring guess-work or timely analysis of PCBs.
+	- Lack of internal team documentation from past-bugs or day-to-day changes caused many small delays where team members would have to ask others for specific settings/commands
+### Project Management
+---
+- Underestimated time for debug and testing
+- Underutilization of human resources
+	- **Software & Hardware** projects were often dependent on each other. Looking back, delaying one side to advance the other could be a worthwhile investment. Especially since Hardware is dependent on hours of certain facilities whereas software can be developed almost anywhere.
+
+#### Project Gantt Chart
+<img src="images/gantt_chart.png" width="800">
+The Gantt chart shows the actual project timeline (dark cyan) to the initial baseline (red). The area between the baseline and actual was due to a multitude of technical issues when doing the OpenCV lane following.
+## Areas of Improvement
+- **Better Spot Evaluation Logic**: Shape fitting algorithms & deeper sensor fusion to measure parking spaces more accurately
+- **Automatic Dataset Collection**: Improving the computer vision model to a point where it can help with annotating images
+- **Dynamic Parking Spot Detection**: Differentiates between parallel, perpendicular, and drive-in spaces
+- **Improved Motion Controls & Path Planning**: Better initial position & multi-point turning to get into very narrow spaces
 ## Acknowledgements
 Thank you to the dedicated staff that made this course possible and helping us throughout the quarter
 - **Professor - Jack Silberman**
