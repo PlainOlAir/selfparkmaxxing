@@ -32,8 +32,12 @@ This project was to develop a self-parallel-parking robot utilizing only a singl
 - **Computer Vision**: Finds other cars to recognize where parking spaces are available. Helps guides the LiDARs and with vehicle guidance
 - **Collision Avoidance**: LiDARs prevent the vehicle from hitting an obstacle
 ## How to Run
-### Requirements
 
+1. Run `all_components.launch.py` in `ucsd_robocar_nav2_pkg` package
+	- Sets up all sensors and controllers
+2. Run `parallel_parking.launch.py` in `parallel_parking` package
+### Requirements
+- ROS2 Foxy
 ## Hardware
 ### General RC Car Wiring Diagram
 <img src="images/wiring_diagram.png" width="800">
