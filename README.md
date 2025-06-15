@@ -12,14 +12,23 @@
 
 ### Table of Contents
 - [Overview](#Overview)
+
 - [Key Features](#Key Features)
+
 - [How to Run](#How to Run)
+
 - [Hardware](#Hardware)
+
 - [Challenges](#Challenges)
+
 - [Areas of Improvement](#Areas of Improvements)
+
 - [Acknowledgements](#Acknowledgements)
+
 - [Course Resources](#Course Resources)
+
 - [Other Course Deliverables](#Other Course Deliverables)
+
 ## Overview
 This project was to develop a self-parallel-parking robot utilizing only a single camera and 2 2-D LiDARs. It will autonomously navigate until it detects other vehicles and starts to detect and evaluate potential parking spots.
 ### Main Objectives
