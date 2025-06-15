@@ -1,6 +1,6 @@
 # ECE MAE 148 - Team 2
 
-![[images/jsoe_logo.png|300]]
+<img src="images/jsoe_logo.png" width="300">
 # Spring 2025 Final Project - Self Parking
 [Final Presentation](https://docs.google.com/presentation/d/1LYtDfWw0KNp87Ibz-X-V0k7ANJAOO4ydioHknXktUfY/edit?slide=id.p#slide=id.p)
 ### Team Members
@@ -36,7 +36,7 @@ This project was to develop a self-parallel-parking robot utilizing only a singl
 ## Hardware
 ---
 ### General RC Car Wiring Diagram
-![[wiring_diagram.png | 600]]
+<img src="images/wiring_diagram.png" width="600">
 
 ### Components (May not be in Wiring Diagram)
 - **Traxxas 1/10 Ford Fiesta Chassis**
@@ -50,11 +50,11 @@ Our project relied heavily on CAD for cable management, sensor mounting & integr
 
 **CAD files can be found in the `cad` folder**
 #### Car CAD
-![[images/car_cad.png | 400]]
+<img src="images/car_cad.png" width="400">
 #### Car CAD w/ FOV Overlays
-![[images/fov_cad.png | 400]]
+<img src="images/fov_cad.png" width="400">
 #### Course CAD (Car with Obstacles)
-![[images/course_cad.png | 400]]
+<img src="images/course_cad.png" width="400">
 
 ## Challenges
 ## Areas of Improvemet
